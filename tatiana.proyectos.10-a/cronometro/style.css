@@ -1,0 +1,38 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: linear-gradient(to right, #3d7f84, #16333d, #0a2c3a);
+font-family: 'Times New Roman', Times, serif;
+color: aliceblue;
+}
+
+contenedor{
+    text-align: center;
+    background: rgb(225, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.3);
+}
+
+.tiempo{
+font-size: 3rem;
+margin-top: 20px;
+}
+
+.botones button{
+ background: cadetblue;
+ border: none;
+ padding: 10px 20px;
+ margin: 5px;
+ font-size: 1rem;
+border-radius: 5px;
+cursor: pointer;
+transition: background 0.3s;
+
+}
+
+.botones button{
+    color: #0a2c3a;
+}

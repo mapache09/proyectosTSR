@@ -1,0 +1,82 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: #00b4d8 ;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+.todo-container{
+background-color: #caf0f8;
+padding: 20px;
+border-radius: 10px;
+box-shadow: o 4px 8px rgba(0, 0, 0, 0, 0.1);
+}
+
+h1{
+    color: #03045e;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+font-size: 16px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0077b6;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: cadetblue;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    background-color: #caf0f8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li.completado{
+    background-color: chartreuse;
+    text-decoration: line-through;
+}
+button-eliminar{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button-eliminar{
+    background-color: darkred;
+}
+
+li.completado{
+    background-color: chartreuse;
+    text-decoration: line-through;
+}
+button-eliminar{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button-eliminar{
+    background-color: darkred;
+}

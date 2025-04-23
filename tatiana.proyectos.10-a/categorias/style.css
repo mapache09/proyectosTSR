@@ -1,0 +1,92 @@
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: moccasin;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+.todo-container{
+    background-color: #f2bd4a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: o 4px 8px rgba(0, 0, 0, 0, 0.1);
+    }
+
+    h1{
+        color: #000000;
+    }
+
+    input{
+        width: 80%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        border: 1px solid rgb(139, 134, 134);
+        border-radius: 5px;    
+    }
+    
+    button{
+        padding: 10px;
+        font-size: 16px;
+        background-color: rgb(98, 70, 15);
+        color: rgb(250, 187, 91);
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: rgb(217, 132, 83);
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li{
+        background-color: #f1f8ca;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    li.completada{
+        background-color: #d3ffd3;
+        text-decoration: line-through;
+    }
+    
+    button-eliminar{
+        background-color: rgb(254, 14, 14);
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    button-eliminar{
+        background-color: rgb(87, 5, 5);
+    }
+
+    .select{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    li.pendiente{
+        background-color: rgb(102, 232, 132);
+        
+        
+        }
+
+
+    
+    
